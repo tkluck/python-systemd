@@ -1,0 +1,5 @@
+python-systemd-cython (0.9.15-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Timo Kluck <tkluck@infty.nl>  Tue, 04 Jul 2017 09:59:57 +0200
