@@ -1,39 +1,40 @@
-Source: python-systemd-cython
-Section: unknown
+Source: systemd-cython
+Section: python
 Priority: optional
 Maintainer: Timo Kluck <tkluck@infty.nl>
-Build-Depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python3-all, python3-setuptools
+Build-Depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python3-all, python3-setuptools, libsystemd-dev
 Standards-Version: 3.9.8
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/mosquito/python-systemd
 X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
-#Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/python-systemd-cython.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/python-systemd-cython.git/
-#Testsuite: autopkgtest-pkg-python
+Vcs-Git: https://github.com/mosquito/python-systemd.git
 
-Package: python-python-systemd-cython
+Package: python-systemd-cython
 Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}
-Suggests: python-python-systemd-cython-doc
-Description: <insert up to 60 chars description> (Python 2)
- <insert long description, indented with spaces>
+Suggests: python-systemd-cython-doc
+Description: Python systemd wrapper (Python 2)
+ A pythonic systemd wrapper, offering intergration
+ with the logging module.
  .
  This package installs the library for Python 2.
 
-Package: python3-python-systemd-cython
+Package: python3-systemd-cython
 Architecture: all
 Depends: ${python3:Depends}, ${misc:Depends}
-Suggests: python-python-systemd-cython-doc
-Description: <insert up to 60 chars description> (Python 3)
- <insert long description, indented with spaces>
+Suggests: python-systemd-cython-doc
+Description: Python systemd wrapper (Python 3)
+ A pythonic systemd wrapper, offering intergration
+ with the logging module.
  .
  This package installs the library for Python 3.
 
-Package: python-python-systemd-cython-doc
+Package: python-systemd-cython-doc
 Architecture: all
 Section: doc
 Depends: ${sphinxdoc:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description> (common documentation)
- <insert long description, indented with spaces>
+Description: Python systemd wrapper (common documentation)
+ A pythonic systemd wrapper, offering intergration
+ with the logging module.
  .
  This is the common documentation package.
