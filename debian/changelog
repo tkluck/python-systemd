@@ -1,4 +1,4 @@
-systemd-cython (0.9.15-1) unstable; urgency=medium
+systemd-cython (0.9.15-ubuntu1~tkluck1) zesty; urgency=medium
 
   * Initial release
 
