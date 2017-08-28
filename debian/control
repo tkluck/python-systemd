@@ -10,7 +10,7 @@ X-Python3-Version: >= 3.2
 Vcs-Git: https://github.com/mosquito/python-systemd.git
 
 Package: python-systemd-cython
-Architecture: all
+Architecture: any
 Depends: ${python:Depends}, ${misc:Depends}
 Suggests: python-systemd-cython-doc
 Description: Python systemd wrapper (Python 2)
@@ -20,7 +20,7 @@ Description: Python systemd wrapper (Python 2)
  This package installs the library for Python 2.
 
 Package: python3-systemd-cython
-Architecture: all
+Architecture: any
 Depends: ${python3:Depends}, ${misc:Depends}
 Suggests: python-systemd-cython-doc
 Description: Python systemd wrapper (Python 3)
